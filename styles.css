@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(231, 207, 253);
+  margin: 0;
+}
+
+/* #players-info {
+    width: 80%;
+    margin: 2rem auto;
+  
+} */
+
+#Players-info ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.playerinfo {
+    text-align: center;
+}
